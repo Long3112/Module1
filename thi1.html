@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script >
+    function findAvg(diem) {
+        let tong=0;
+        let tb;
+        for (let i = 0; i < diem.length; i++) {
+            tong+= diem[i];
+        }
+        tb =  tong/diem.length;
+        return tb;
+    }
+    document.write(findAvg([8,10,10]));
+
+
+</script>
+
+</body>
+</html>
